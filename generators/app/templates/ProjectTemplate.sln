@@ -1,0 +1,49 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A68C21C8-05E9-4808-B757-01FF1BA0EB59}"
+	ProjectSection(SolutionItems) = preProject
+		Core\VersionInfo.cs = Core\VersionInfo.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "<%=baseName%>.Data", "Core\<%=baseName%>.Data\<%=baseName%>.Data.csproj", "{<%= data.guid %>}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "<%=baseName%>.Services", "Core\<%=baseName%>.Services\<%=baseName%>.Services.csproj", "{<%=services.guid%>}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "<%=baseName%>.Api", "Core\<%=baseName%>.Api\<%=baseName%>.Api.csproj", "{<%=api.guid%>}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "<%=baseName%>.Utilities", "<%=baseName%>.Utilities\<%=baseName%>.Utilities.csproj", "{<%=utils.guid%>}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{<%= data.guid %>}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{<%= data.guid %>}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{<%= data.guid %>}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{<%= data.guid %>}.Release|Any CPU.Build.0 = Release|Any CPU
+		{<%= services.guid %>}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{<%= services.guid %>}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{<%= services.guid %>}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{<%= services.guid %>}.Release|Any CPU.Build.0 = Release|Any CPU
+		{<%= api.guid %>}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{<%= api.guid %>}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{<%= api.guid %>}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{<%= api.guid %>}.Release|Any CPU.Build.0 = Release|Any CPU
+		{<%= utils.guid %>}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{<%= utils.guid %>}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{<%= utils.guid %>}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{<%= utils.guid %>}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{<%= data.guid %>} = {A68C21C8-05E9-4808-B757-01FF1BA0EB59}
+		{<%= services.guid %>} = {A68C21C8-05E9-4808-B757-01FF1BA0EB59}
+		{<%= api.guid %>} = {A68C21C8-05E9-4808-B757-01FF1BA0EB59}
+	EndGlobalSection
+EndGlobal
