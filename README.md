@@ -1,5 +1,11 @@
 # generator-aspnet-core-api [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 
+## What is it 
+aspnet core api, is a generator that generates a solution with a data layer, validation layer, Rest Api Controllers to be used with your SPA project. 
+
+## It is Not
+It is not asp.net core it is a core solution to build Rest Apis for your SPA project. 
+
 ## Installation
 
 First, install [Yeoman](http://yeoman.io) and generator-aspnet-core-api using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
