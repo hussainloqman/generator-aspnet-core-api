@@ -1,5 +1,3 @@
-# generator-aspnet-core-api [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-
 ## What is it 
 aspnet core api, is a generator that generates a solution with a data layer, validation layer, Rest Api Controllers to be used with your SPA project. 
 
